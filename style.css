@@ -1,0 +1,94 @@
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:#ffffff;
+    padding: 0 20px;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    border: 2px solid #dddddd;
+    flex: 1;
+}
+
+img {
+    position: relative;
+    height: 80%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h5 {
+    position: absolute;
+    bottom: 25%;
+    background: #4aaaa5;
+    color: white;
+    width: 92%;
+    padding: 4% 0;
+    text-align: center;
+}
+
+#headshot {
+    height: 60%;
+    width: 20%;
+    float: left;
+    padding: 0 20px 20px 0;
+    margin-bottom: 0;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.navbar-brand {
+    margin-left: 178px;
+    padding: 18px;
+    font-size: 24px;
+    color: white;
+    background: #4aaaa5;
+}
+
+.navbar {
+    border-bottom: 2px solid #ccc;
+    padding: 0;
+}
+
+h2 {
+    padding: 20px 0;
+    font-size: 24px;
+    color: #4aaaa5;
+    border-bottom: 2px solid #ccc;
+}
+
+body {
+    background-image: url(images/memphis-mini.png);
+    display: flex; 
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar-collapse {
+    margin-right: 178px;
+}
+
+.row2 {
+    margin-top: 10px;
+}
+
+.footer {
+    text-align: center;
+    background: #666666;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0 10px;
+    color: #ccc;
+    border-top: 8px solid #4aaaa5;
+}
+
+.col-md-3 {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.btn {
+    background: #4aaaa5;
+    color: white;
+    border: none;
+}
